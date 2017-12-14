@@ -3,7 +3,7 @@
 int main()
 {
     std::cout << "2.4.2节练习" << std::endl;
-    std::cout << "下面的哪些初始化是合法的？请说明原因。" << std::endl;
+    std::cout << "练习2.27 下面的哪些初始化是合法的？请说明原因。" << std::endl;
     std::cout << "(a) int i = -1, &r = 0;" << std::endl;
     std::cout << "    error: invalid initialization of non-const reference of type ‘int&’ from an rvalue of type ‘int’" << std::endl;
     std::cout << "        int i = -1, &r = 0;" << std::endl;
@@ -20,7 +20,7 @@ int main()
     std::cout << "(g) const int i2 = i, &r = i;" << std::endl;
 
     std::cout << "-----------------------------------" << std::endl;
-    std::cout << "说明下面的这些定义是什么意思，挑出其中不合法的。" << std::endl;
+    std::cout << "练习2.28 说明下面的这些定义是什么意思，挑出其中不合法的。" << std::endl;
 
     std::cout << "(a) int i, *const cp;" << std::endl;
     std::cout << "error: uninitialized const ‘cp’ [-fpermissive]" << std::endl;
